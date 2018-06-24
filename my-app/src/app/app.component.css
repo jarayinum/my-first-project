@@ -1,0 +1,16 @@
+
+body, h1, h2, h3, h4, h5, p {
+    font-family: "proxima-nova",sans-serif;
+}
+
+body {
+    color: #3a3a3a;
+    font-size: 15px;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
