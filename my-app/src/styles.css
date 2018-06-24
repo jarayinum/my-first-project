@@ -1,0 +1,509 @@
+/* You can add global styles to this file, and also import other style files */
+
+  .header {
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px #d8d8d8;
+    height: 72px;
+    margin-bottom: 32px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.body {
+    background: #f6f6f6;
+}
+
+
+body, h1, h2, h3, h4, h5, p {
+    font-family: "proxima-nova",sans-serif;
+}
+
+body {
+    color: #3a3a3a;
+    font-size: 15px;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+.header__logo--unauthorized {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 14px;
+    width: 191px;
+    form {
+    display: block;
+    margin-top: 0em;
+}
+
+}
+
+.container--responsive {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calculator-registration-container {
+    max-width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f2f2f3;
+    box-shadow: 2px 2px 12px 5px #ddd;
+    min-width: 935px;
+}
+.calculator-registration-steps {
+    float: left;
+    display: block;
+    margin-right: 1.3416155735%;
+    width: 40.8840575821%;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: #fff;
+    display: table-cell;
+    float: none;
+    margin-right: 0;
+    vertical-align: top;
+}
+
+.calculator-registration-steps__product-badge {
+    background-color: #ffd84c;
+    border-top-left-radius: 4px;
+    height: 30px;
+    padding: 5px 0;
+    width: 157px;
+}
+.calculator-registration-steps__indicator {
+    padding-top: 110px;
+}
+.calculator-registration-steps__product-badge h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.calculator-registration-steps__indicator svg {
+    display: block;
+    margin: auto;
+}
+.calculator-registration-steps__header {
+    padding-top: 25px;
+}
+.calculator-registration-steps__header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.calculator-registration-steps__illustration {
+    height: 280px;
+}
+.calculator-registration-steps__illustration svg {
+    display: block;
+    margin: auto;
+}
+.calculator-registration-steps__instructions {
+    font-size: 18px;
+    padding: 50px 46px;
+}
+.calculator-registration-steps__instructions h3 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+.calculator-registration-steps__instructions h3 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+.calculator-registration-form
+ 		{
+ 			float:left;
+ 			display:block;
+ 			margin-right:1.3416155735%;
+ 			width:57.7743268444%;
+ 			display:table-cell;
+ 			float:none;
+ 			padding:22px 22px 0
+ 		}
+ 		.calculator-registration-form:last-child
+ 		{
+ 			margin-right:0
+ 		}
+ 		@media screen and (max-width: 545px)
+ 		{
+ 		.calculator-registration-form
+ 		{
+ 			float:left;
+ 			display:block;
+ 			margin-right:4.13582034%;
+ 			width:100%
+ 		}
+ 		.calculator-registration-form:last-child
+ 		{
+ 			margin-right:0
+ 		}
+ 		}
+
+.calculator-registration-container .row {
+    margin-bottom: 10px;
+}
+.calculator-registration-form h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.controlbox.controlbox-input {
+    overflow: hidden;
+    position: relative;
+}
+.half-width {
+    float: left;
+    display: block;
+    margin-right: 1.3416155735%;
+    width: 49.3291922133%;
+}
+.controlbox.controlbox-input label {
+    transition: all 0.1s;
+    color: #979797;
+    cursor: text;
+    font-weight: 400;
+    left: 30px;
+    margin-bottom: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 21px;
+}
+.controlbox.controlbox-input input {
+    background: #fff;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    height: auto;
+    left: 0;
+    margin-bottom: 2px;
+    outline: 0;
+    padding: 27px 22px 23px 25px;
+    top: 0;
+    width: 100%;
+}
+.row {
+    display: block;
+}
+.half-width:last-child {
+    margin-right: 0;
+}
+.controlbox.controlbox-input label {
+    transition: all 0.1s;
+    color: #979797;
+    cursor: text;
+    font-weight: 400;
+    left: 30px;
+    margin-bottom: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 21px;
+}
+.calculator-registration-form .recurly-hosted-field {
+    background: #fff;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    font-size: 20px;
+    height: 75px;
+    left: 0;
+    margin-bottom: 2px;
+    outline: 0;
+    padding: 25px 22px;
+    top: 0;
+    width: 100%;
+}
+.calculator-registration-form {
+    float: left;
+    display: block;
+    margin-right: 1.3416155735%;
+    width: 57.7743268444%;
+    display: table-cell;
+    float: none;
+    padding: 22px 42px 0;
+}
+.recurly-hosted-field {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 12px;
+    padding: 12px;
+    transition: border-color 150ms ease 0s;
+    width: 100%;
+}
+.third-width {
+    float: left;
+    display: block;
+    margin-right: 1.3416155735%;
+    width: 32.438922951%;
+}
+.left {
+    float: left;
+    width: 70%;
+}
+.right {
+    float: right;
+}
+.calculator-registration-form__credit-card-icons i {
+    color: #979797;
+    font-size: 24px;
+}
+.fa-cc-visa:before {
+    content: "\f1f0";
+}
+.full-width {
+    float: left;
+    display: block;
+    margin-right: 1.3416155735%;
+    width: 100%;
+}
+.calculator-registration-form .recurly-hosted-field.field-with-error
+            {
+                border:1px solid #eb194f
+            }
+.calculator-registration-form select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    outline: 0;
+    padding: 25px 22px;
+    width: 100%;
+}
+.calculator-registration-form label.floated {
+    font-size: 70%;
+    left: 5px;
+    padding: 1px 6px;
+    top: 8px;
+}
+.calculator-registration-form label {
+    transition: all 0.1s;
+    color: #979797;
+    cursor: text;
+    font-weight: 400;
+    left: 30px;
+    margin-bottom: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 21px;
+}
+button, input, optgroup, select, textarea {
+    font-family: "proxima-nova",sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+.calculator-registration-form .button {
+    float: right;
+    font-size: 24px;
+    margin: 20px 0 15px;
+    padding: 12px 8px 17px;
+    width: 414px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    appearance: none;
+    background-color: #6096e8;
+    border: 1px solid #6096e8;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    line-height: 1;
+    padding: 8px 20px;
+    min-width: 160px;
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 150ms ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+.third-width:last-child {
+	margin-right: 0;
+}
+.calculator-registration-form label.floated {
+    font-size: 70%;
+    left: 5px;
+    padding: 1px 6px;
+    top: 8px;
+}
+.select-container:after {
+    color: #b7b7b7;
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 16px;
+    padding: 0 0 2px;
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.calculator-registration-form .select-container:after {
+    color: #b7b7b7;
+    content: "\f078";
+    font: 20px;
+    font-family: FontAwesome;
+    padding: 0 0 2px;
+    pointer-events: none;
+    position: absolute;
+    right: 11px;
+    top: 18px;
+}
+.select-container {
+    position: relative;
+}
+.calculator-registration-form__credit-card-icons i {
+    color: #979797;
+    font-size: 24px;
+    padding: 2px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+
+ 	.controlbox.controlbox-input label
+ 	{
+ 		transition:all 0.1s;color:#979797;
+ 		cursor:text;
+ 		font-weight:400;
+ 		left:30px;
+ 		margin-bottom:0;
+ 		padding:5px 0;
+ 		position:absolute;
+ 		text-transform:uppercase;
+ 		top:21px
+ 	}
+ 	.controlbox.controlbox-input label.controlbox-label-floated
+ 	{
+ 		font-size:70%;
+ 		left:5px;
+ 		padding:1px 6px;top:8px
+ 	}
+ 	.controlbox .controlbox-errors
+ 		{
+ 			color:#eb194f;
+ 			font-size:13px;
+ 			height:15px
+ 		}
+ 	.custom-control
+ 	{
+ 		cursor:pointer;
+ 		font-weight:normal;
+ 		margin-bottom:10px;
+ 		padding-left:24px;
+ 		position:relative
+ 	}
+
+
+ 	.calculator-registration-form__credit-card-icons i
+ 		{
+ 			color:#979797;
+ 			font-size:24px
+ 		}
+ 			.calculator-registration-form__credit-card-icons i.selected
+ 			{
+ 				color:#54caa0
+ 			}
+ 			.calculator-registration-form select
+ 			{
+ 				-moz-appearance:none;
+ 				-webkit-appearance:none;
+ 				appearance:none;
+ 				background:#fff;
+ 				border:1px solid #979797;
+ 				border-radius:2px;
+ 				font-size:20px;
+ 				font-weight:600;margin:0;
+ 				outline:0;
+ 				padding:25px 22px;
+ 				width:100%
+ 			}
+ 			.calculator-registration-form .select-container:after
+ 			{
+ 				color:#b7b7b7;
+ 				content:"\f078";
+ 				font:20px;
+ 				font-family:FontAwesome;
+ 				padding:0 0 2px;
+ 				pointer-events:none;
+ 				position:absolute;
+ 				right:11px;top:18px
+ 			}
+
+ 	.controlbox.controlbox-input label
+ 	{
+ 		transition:all 0.1s;color:#979797;
+ 		cursor:text;
+ 		font-weight:400;
+ 		left:30px;
+ 		margin-bottom:0;
+ 		padding:5px 0;
+ 		position:absolute;
+ 		text-transform:uppercase;
+ 		top:21px
+ 	}
+ 	.controlbox.controlbox-input label.controlbox-label-floated
+ 	{
+ 		font-size:70%;
+ 		left:5px;
+ 		padding:1px 6px;top:8px
+ 	}
+ 	.controlbox .controlbox-errors
+ 		{
+ 			color:#eb194f;
+ 			font-size:13px;
+ 			height:15px
+ 		}
+
+
+
+
+
+
+
